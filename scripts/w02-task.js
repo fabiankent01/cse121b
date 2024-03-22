@@ -7,7 +7,7 @@ const fullName = 'Iwinosa Fabian Idahosa';
 
 const currentYear = 2024;
 
-const profilePicture = "images/tinywow_IMG_8236_34542472.jpg";
+const profilePicture = "images/tinywow_IMG_8236_34542472.jpg"; 
 
 
 
