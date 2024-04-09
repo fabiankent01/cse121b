@@ -61,7 +61,7 @@ document.querySelector('#enter').onclick = () => {
 		}
 		temperature.appendChild(image);
 		temperature.appendChild(currentTemp);
-
+currentTemp.style.color = "black";
 		const desc = data.weather[0].description;
 
 		description.innerHTML = `- ${desc.charAt(0).toUpperCase() + desc.slice(1)}`;
