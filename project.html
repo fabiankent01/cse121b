@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/project.css">
+    <title>Weather locator</title>
+</head>
+<body>
+    <main>
+        <div class="main">
+            <h1>Weather locator</h1>
+            <div class="tude">
+                <div id="tude">
+                    <label for="">Latitude: <br><input type="text" name="" id="lat"></label><br>
+            <label for="">Longitude: <br> <input type="text" name="" id="long"></label><br>
+                </div>
+            </div>
+            <div class="check">
+                <p>How do you want the temperature degree?</p><br>
+                <input type="radio" name="temp" value="imperial" id="fahr"><span id="far">Fahrenheit</span>
+                <input type="radio" name="temp" value="metric" id="cels"><span id="cel">Celsius</span>
+            </div>
+            <button id="enter">Enter</button>
+        </div>
+        <div class="sub-main sub">
+            <div class="location" id="loca">
+                <h1 id="location"></h1>
+            </div>
+            <div class="temp" id="tem">
+                <img src="/images/cloud-rain-solid.svg" alt="cloud">
+            </div>
+            <div class="desp">
+                <p id="desp"></p>
+                <p id="hum"></p>
+            </div>
+            <div id="fav">
+                <button id="fave">Close</button>
+            </div>
+        </div>
+    </main>
+    <script src="scripts/project.js"></script>
+</body>
+</html>

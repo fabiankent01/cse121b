@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-repeat: no-repeat;
+    min-height: 100lvh;
+    background-image: url("/images/tree-desert-white-clouds-during-daytime.jpg");
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(200px);
+    opacity: 0.8;
+    color: black;
+}
+.body{
+    opacity: 10%;
+}
+main{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100lvh;
+}
+.sub{
+    display: none;
+}
+.su{
+    animation: scale 0.3s linear;
+}
+.sui{
+    animation: ale 0.3s linear;
+}
+.sub-main{
+    top: 50;
+    left: 50;
+    right: 50;
+    bottom: 50;
+    position: absolute;
+    background-color: black;
+    /* background-image: linear-gradient(skyblue,white); */
+    opacity: 1;
+    width: 600px;
+    height: 350px;
+    margin: auto;
+    border-radius: 25px;
+    /* transform: translate(50%, 50%); */
+}
+@keyframes scale {
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+h1{
+    font-size: 40px;
+    background-image: linear-gradient(skyblue,white);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-position: center;
+    text-transform: uppercase;
+    /* opacity: 75%; */
+    margin-bottom: 20px;
+}
+label{
+    font-size: 25px;
+    text-transform: uppercase;
+    background-image: linear-gradient(skyblue,white);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-position: center;
+    /* opacity: 75%; */
+}
+#lat,#long{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100px;
+    border:none;
+    border-bottom: 2px solid skyblue;
+    background-color: transparent;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 20px;
+    appearance: none;
+    color: white;
+}
+.tude{
+    display: flex;
+}
+button{
+    height: 40px;
+    border-radius: 25px;
+    background-image: linear-gradient(skyblue,white);
+    border: none;
+    width: 80px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+
+}
+#span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 25lvh;
+}
+#cel,#far{
+    background-image: linear-gradient(skyblue,white);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-position: center;
+    text-transform: uppercase;
+}
+p{
+    background-image: linear-gradient(skyblue,white);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-position: center;
+    text-transform: uppercase;
+}
+.check{
+margin-bottom: 20px;
+}
+#cels{
+    margin-left: 10px;
+}
+.temp,.location,.desp,#fav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.location{
+    margin-top: 70px;
+}
+img{
+    width: 80px;
+    height: 80px;
+}
+#desp{
+    font-size: 20px;
+}
+#tem{
+    font-size: 30px;
+}
+#fave{
+    width: 150px;
+    margin-top: 30px;
+}
